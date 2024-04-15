@@ -37,13 +37,19 @@
 
     .menu-nav {
         height: 75vh;
-        transform: translate3d(-100%, 0, 0);
+        transform: translate3d(0, 100%, 0);
         font-size: 24px;
+
+        .nav-item {
+            transform: translate3d(0, 700px, 0);
+        }
     }
+
+    
 
     .menu-branding {
         height: 25vh;
-        transform: translate3d(100%, 0, 0);
+        transform: translate3d(0, -100%, 0);
 
         .portrait {
             background: url('../img/portrait_small.jpg');
